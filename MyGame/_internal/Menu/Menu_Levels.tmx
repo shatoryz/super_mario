@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2"
+     orientation="orthogonal"
+     renderorder="right-down"
+     width="40" height="23"
+     tilewidth="64" tileheight="64"
+     infinite="0"
+     nextlayerid="13"
+     nextobjectid="5">
+
+ <tileset firstgid="1" source="../Textures/Menu_Textures_Levels.tsx"/>
+ <tileset firstgid="50" source="../Textures/Textures_levels.tsx"/>
+
+ <layer id="1" name="Back_Ground" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6Grf9MTsS8krJqqqqo+H+uHA5k=
+  </data>
+ </layer>
+
+ <layer id="2" name="Truba" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAADgNw5gAAE=
+  </data>
+ </layer>
+
+ <layer id="9" name="Spawn" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6DFsH9SQ+zQAxKQAAAfzHUAAEoLsYAAGQ==
+  </data>
+ </layer>
+
+ <layer id="3" name="Dorozki" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztw6ENAAAMAjDk/r94P6AQbdIEAFhwQwGg8TOJARk=
+  </data>
+ </layer>
+
+ <layer id="4" name="Level_1" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztziEBAAAIA7Bb+hemwh2ILcESAOC7uQ4AQGEBSpAACg==
+  </data>
+ </layer>
+
+ <layer id="5" name="Level_2" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Dd+BfMXBCSVkETAOC7uQ4AQC1QAAAL
+  </data>
+ </layer>
+
+ <layer id="6" name="Level_3" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7D9+PeLjCXQKmgCAFw37QAALyxVMAAM
+  </data>
+ </layer>
+
+ <layer id="7" name="Level_4" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6AHsH9eY3xTSEACAHw37QAAJyxaIAAN
+  </data>
+ </layer>
+
+ <layer id="8" name="Inviz" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztk8EKABAQRPfg7urq/3/SSW0TmyQmzau5SM2zMBNCCCH+pzxMCuL9WEDHanyz8+Sjpz8Pmx/6sPkh/Q2OMgP3RX9wJyudkd9NZrNjcMVuNkfsroN1Fj+mO244uw4f
+  </data>
+ </layer>
+
+ <layer id="11" name="Trees" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztlm0OABAMQ4X73xkH8DHTGtbEP9O3LI2F8IdiOYn09shLwrLCjexVKjZLyw/FYaU/NgszTyO/HSyWMlM1y6Phnql9JTeuNfmc+kL+5SfzifKw0BNyp/Ld7i4v6e6+y0d7T1vDUgbdcwDT
+  </data>
+ </layer>
+
+ <!-- ✅ ВАЖНО: Object Layer для выбора уровней -->
+ <objectgroup id="12" name="Level_Triggers">
+  <object id="1" name="level_1" x="256" y="512" width="64" height="64"/>
+  <object id="2" name="level_2" x="384" y="512" width="64" height="64"/>
+  <object id="3" name="level_3" x="512" y="512" width="64" height="64"/>
+  <object id="4" name="level_4" x="640" y="512" width="64" height="64"/>
+ </objectgroup>
+
+</map>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="../Textures/Menu_Textures_Levels.tsx"/>
+<tileset firstgid="50" source="../Textures/Textures_levels.tsx"/>
+ <layer id="1" name="Ground" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztjt0NQEAQBjeUQRsbdIEyqEkXR31WcmLvzc+6k/gmmdfJEAEAAAAAxKESa2/nbZIehbR0fO32SY9Ctr+Jrv/xm1OKO39M3/1jivPnxNm7iINyPPFm/ZeJubGW/UIsjdU87f/9bwW4Zxta
+  </data>
+ </layer>
+ <layer id="3" name="Mob" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJzt0zENAAAIwDDwbxoHHDwQ0irYswgA4KPcDgBak0d9zXUFGlgABA==
+  </data>
+ </layer>
+ <layer id="2" name="Block" width="40" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjaQG6gHUBnQKl/ydWPTR85Zg2U+4ciIMWv+NTSI55oES8Dkb4GA6B2XFJiHz0AJfaPlif0A8SEFTnhaQHFgwE0AXEzFLcMsFuwgdlAPAeKSQV+VHSHCQ5xct1HbbdR033UcpsJGibWbmrZ78eA3Tx0d5HivlEwCljxyAEANGQPow==
+  </data>
+ </layer>
+</map>

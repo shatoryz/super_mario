@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="140" height="30" tilewidth="64" tileheight="64" infinite="0" nextlayerid="20" nextobjectid="1">
+ <tileset firstgid="1" source="../Textures/Mob_Grib.tsx"/>
+ <tileset firstgid="2" source="../Textures/Textures_levels.tsx"/>
+ <tileset firstgid="627" source="../Textures/Trofey_Texture.tsx"/>
+ <tileset firstgid="628" source="../Textures/Mob_Turtle_Red.tsx"/>
+ <layer id="1" name="Ground" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1ksOQEAURcEXlsE2ev9bw5AIr9vAryq5Q0mLE0QAAAAAAAAAAG9X7j4Ar1FCL+SU0As5JfRCzrYVvbDo5vXJXbn2aaPNMG9M7sq1Txtt9JJ39D79irNvhl7yju73K86e6V97afn30st/e2k5u170opc1veilhl70UkMveqmhl/1Nvx9V+g==
+  </data>
+ </layer>
+ <layer id="19" name="Sky_Blocks" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U9/gBFUBAAAAAAAAAAAAAAAAAAAA8AxBoAAB
+  </data>
+ </layer>
+ <layer id="3" name="Coins" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEOwCAIBVBPyP2P07G2E6ZRQvpeYuLIAH4cA/aK6gIAmvBewlkxHaCOOQSyInEHbidmQ44DADzZjVhR2S96lSy9Uq/L37tDjQDwV++cltsAAAAA8N0FZlQGtQ==
+  </data>
+ </layer>
+ <layer id="11" name="secret_blocks_grib_baff" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiAbrn+bNfD1gQQkAAAAAAAAAAAAAMDarQMAAAAAAFQP+rIAUA==
+  </data>
+ </layer>
+ <layer id="12" name="secret_blocks_coins" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1jERAAAIAzEc4t8NDlg5romCbv0qgCx9PQAAgJVeAwDIof0A+MqHAQAAAAAAAABkGuxjAT0=
+  </data>
+ </layer>
+ <layer id="13" name="secret_blocks_grib_life" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiAbrn+bVfDzgQQkAAAAnVsHAAAAAAAAAAAAAAAAAEYeuzAAUA==
+  </data>
+ </layer>
+ <layer id="10" name="Sky" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1cERgCAMBMBUYv9l+vTjKKIIhN0CIFySISJii3a+OPvqjJa1/2H2+lf0pmf6nYdetidjWjBX5e6ykiXkYZ/nol9kZK7r1OS2QtZP3rhCHr3JGHKY8c8pub93jXDGXMI4RtnHUeoAAAAAAAAAAA47KZADKw==
+  </data>
+ </layer>
+ <layer id="6" name="Dead" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0lEKgCAQBUAv2Jk8RxfsHP2GZEG6ljQD+/OQVfClBAAAAAAAAAAAAAAAAPBNSzH8S+3/W/Knd/Z4N7Ei+/LGDmLN2Jcy05dxZuzLVU6s1r6sJ3mP3bWz+WZHD1sx+XDvbHbcJDcD
+  </data>
+ </layer>
+ <layer id="4" name="Truba" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEKgCAQBVBXdYy6aVdPaJvBgDVW74GbWciH+WIpAAAAAAAAAADAmS07APBLUz1zdogyTg6uLfWs2SHKODk4tN5va093vfdoDnK09hGdP52DHPpCRI++tP6SyFxf3qFHXzLuIIe+EKEvROgLEfpChL58yw6RQxFl
+  </data>
+ </layer>
+ <layer id="14" name="BackGround" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U9/gBFUBAAAAAAAAAAAAAAAAAAAA8AxBoAAB
+  </data>
+ </layer>
+ <layer id="15" name="Mob_Turtle_Red" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2DEKADAIA0Dpm/t/HDuWDiKWuxdkCAqJAKizV3cCgDu3ig56BwDv/E8AAAAAOOxlTKGrAAAAAADATxJfJwLF
+  </data>
+ </layer>
+ <layer id="16" name="Black" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0kENACAQwDDkYgPnYGEv7tEmc7C1mOS89uCYxS8UfqHwC4VfKPxC4RcKv1D4hcIvFH6h8AuFXyj8QuEXCr9Q+IXCLxR+AQAAAAAAfrtvhDar
+  </data>
+ </layer>
+ <layer id="17" name="Trofey" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7AFy/hPOBABR6ugCQAAAAAAAAAAwE9d1wMAAAAAAACANWYhAHY=
+  </data>
+ </layer>
+ <layer id="18" name="Brick" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2EsOgCAMBUAO5f3P5lr8JCoBWmYS17aPCpFSgBlt1ZNd3e8KPXM0au0zzt7XfjJlkFnGmY3iKvss+Wftq5WR+bR8t/UlOvtUP3dnnvz7eZO19Tkzw+1FyW6Gu4WIetTvG1zb7Pvwn/pm7438zB30tfJdXaRaAVb1dEb5dwEAAAAAAGhrB8x9G20=
+  </data>
+ </layer>
+ <layer id="2" name="Mob_Grib" width="140" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEOACAIBDD5/6cdnYyDGIhpJ8ZjgNwYAAD8KqoDAAA8pOsA1Or+h2/ydd8NgFz+PgBAb/oaACexmYE8bgsAAACWCZHTAAs=
+  </data>
+ </layer>
+</map>
